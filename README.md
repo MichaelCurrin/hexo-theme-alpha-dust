@@ -36,18 +36,13 @@ This theme was developed from scratch by myself just for fun. It is a glowy futu
 
 Install the theme by using:
 
-```
-$ git clone https://github.com/klugjo/hexo-theme-alpha-dust themes/alpha-dust
+```sh
+$ git submodule add https://github.com/klugjo/hexo-theme-alpha-dust themes/alpha-dust
 ```
 
 Then update your blog's main `_config.yml` to set the theme to `alpha-dust`:
 
-i.e:
-
-```
-# Extensions
-## Plugins: http://hexo.io/plugins/
-## Themes: http://hexo.io/themes/
+```yaml
 theme: alpha-dust
 ```
 
@@ -59,7 +54,7 @@ The theme's global configuration is done in `/themes/hexo-theme-alpha-dust/_conf
 
 The menu is configured in the theme's `_config.yml`.
 
-```
+```yaml
 # Header
 menu:
   Home: /
@@ -82,7 +77,7 @@ fa_logo: fa-cube
 
 Page's and post's logo is configured in front matter and overrides blog's logo if defined.
 
-```
+```yaml
 ---
 title: Post's title
 logoIcon: fa-pencil-square
@@ -93,7 +88,7 @@ logoIcon: fa-pencil-square
 
 The About section's text in the footer is configured in the theme's `_config.yml`. HTML allowed.
 
-```
+```yaml
 # Footer About Text
 footer_about: "Make Websites. Make Magic."
 ```
@@ -111,7 +106,7 @@ footer_copyright: "@Untitled. All right reserved | Design & Hexo <a href=\"http:
 
 The default post title (used when no title is specified) is configured in the theme's `_config.yml`.
 
-```
+```yaml
 # Default post title
 default_post_title: Untitled
 ```
@@ -120,7 +115,7 @@ default_post_title: Untitled
 
 You can change the date format for the archive page if you so desire
 
-```
+```yaml
 # Archive Date Format
 archive_date_format: MMM YYYY
 ```
@@ -129,7 +124,7 @@ archive_date_format: MMM YYYY
 
 The disqus shortname is specified in the theme's `_config.yml`.
 
-```
+```yaml
 # Comments.
 comments:
   # Disqus comments
@@ -140,7 +135,7 @@ comments:
 
 The Google Analytics Tracking ID is configured in the theme's `_config.yml`.
 
-```
+```yaml
 # Google Analytics Tracking ID
 google_analytics:
 ```
@@ -149,7 +144,7 @@ google_analytics:
 
 Setup the links to your social pages in the theme's `_config.yml`. Links are in the footer. No link = No icon.
 
-```
+```yaml
 # Social Accounts
 twitter_url: https://twitter.com/?lang=en
 facebook_url: https://www.facebook.com/
@@ -169,20 +164,20 @@ rss_url: \#
 
 - Create a page named `tags`
 
-```
+```sh
 $ hexo new page "tags"
 ```
 
 - Edit the newly created page and set page type to `tags` in the front matter.
 
-```
+```yaml
 title: All tags
 type: "tags"
 ```
 
 - Add `tags` to the menu in the theme `_config.yml`:
 
-```
+```yaml
 # Header
 menu:
   Home: /
@@ -197,20 +192,20 @@ menu:
 
 - Create a page named `categories`
 
-```
+```sh
 $ hexo new page "categories"
 ```
 
 - Edit the newly created page and set page type to `categories` in the front matter.
 
-```
+```sh
 title: All tags
 type: "categories"
 ```
 
 - Add `tags` to the menu in the theme `_config.yml`:
 
-```
+```yaml
 # Header
 menu:
   Home: /
@@ -229,4 +224,4 @@ If you have a question, feature request or a bug you need me to fix, please [cli
 
 ## License
 
-MIT
+Source license - [MIT](https://github.com/klugjo/hexo-theme-alpha-dust/blob/master/LICENSE).
