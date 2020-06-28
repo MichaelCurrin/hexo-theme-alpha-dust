@@ -36,9 +36,14 @@ This theme was developed from scratch by myself just for fun. It is a glowy futu
 
 Install the theme by using:
 
-```sh
-$ git submodule add https://github.com/klugjo/hexo-theme-alpha-dust themes/alpha-dust
-```
+- This fork:
+    ```sh
+    $ git submodule add https://github.com/MichaelCurrin/hexo-theme-alpha-dust themes/alpha-dust
+    ```
+- Original repo:
+    ```sh
+    $ git submodule add https://github.com/klugjo/hexo-theme-alpha-dust themes/alpha-dust
+    ```
 
 Then update your blog's main `_config.yml` to set the theme to `alpha-dust`:
 
