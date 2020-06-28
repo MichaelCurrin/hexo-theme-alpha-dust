@@ -1,10 +1,10 @@
 # Alpha Dust Hexo Blog Theme
 
-![](http://www.codeblocq.com/img/hexo-theme-thumbnail/AlphaDust.jpg)
+![Preview image](https://www.codeblocq.com/img/hexo-theme-thumbnail/AlphaDust.jpg)
 
 [Check out the demo](http://www.codeblocq.com/assets/projects/hexo-theme-alpha-dust/).
 
-This theme was developed from scratch by myself just for fun. It is a glowy futuristic theme, hope you will find a use for it :)
+This theme was developed from scratch by [klugjo](https://github.com/klugjo/) just for fun. It is a glowy futuristic theme, hope you will find a use for it :)
 
 ## Features Overview
 
